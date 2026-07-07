@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #FFFDFD;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.664);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.logito {
+   max-height: 400px;
+   max-width: 400px;
+    
+}
+.container {
+    padding: 100px 100px;
+}
+.campana {
+    color: #D3517C;
+    border-color: #D3517C;
+    width: 50px;
+    height: 50px;
+}
+.Nombre {
+    display: flex;
+    align-items: center;
+     background-color: #FFFDFD;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.664);
+}
+.navbar-two{
+    background-color: #FFFDFD;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.664);
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+}
+.nav-links-two {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.nav-links-two a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
