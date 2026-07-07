@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+     font-family: Arial, Helvetica, sans-serif;
+}
 .navbar {
     background-color: #FFFDFD;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.664);
@@ -19,14 +22,23 @@
     color: black;
     text-decoration: none;
     font-size: 18px;
-    padding: 8px 12px;
+    padding: 8px 20px;
     border-radius: 5px;
     transition: transform 0.3s ease;
 }
 .logito {
    max-height: 400px;
    max-width: 400px;
-    
+}
+.at{
+    background-color: #3E64DE;
+    color: #D8E0F4;
+    height: 135px;
+    width: 135px;
+    font-size: 35px;
+    padding: 50px 20px;
+    border-radius: 50%;
+    text-align: center;
 }
 .container {
     padding: 100px 100px;
@@ -40,7 +52,7 @@
 .Nombre {
     display: flex;
     align-items: center;
-     background-color: #FFFDFD;
+    background-color: #FFFDFD;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.664);
 }
 .navbar-two{
@@ -49,6 +61,7 @@
     padding: 20px 50px;
     display: flex;
     align-items: center;
+
 }
 .nav-links-two {
     display: flex;
